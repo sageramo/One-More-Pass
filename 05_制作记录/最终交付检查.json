@@ -1,0 +1,31 @@
+{
+  "version": "v2 · 叙事改版 · 2026-10-19",
+  "shots": 32,
+  "total_seconds": 180,
+  "flashback_seconds": 40,
+  "accepted_pngs": 29,
+  "new_pngs": 7,
+  "original_22_png_unchanged": true,
+  "generation_records": 35,
+  "local_links_checked": 50,
+  "lighting_text_identical": true,
+  "pdfs": [
+    {
+      "path": "01_制作文档/资产与视觉提示词固定.pdf",
+      "pages": 9,
+      "bytes": 919870,
+      "sha256": "7584a9c59d34db8750f73ec8cd563f916aafe7584db8dffa44ead09678f305ef",
+      "rendered": true,
+      "visual_review": "全页联系表及关键页检查通过，无截断或遮挡"
+    },
+    {
+      "path": "01_制作文档/分镜脚本.pdf",
+      "pages": 16,
+      "bytes": 516237,
+      "sha256": "617e0b7dee897b93ba32ddfe6f13c05e15dffc8a1244c68f399b58d77b4273cb",
+      "rendered": true,
+      "visual_review": "全页联系表及关键页检查通过，无截断或遮挡"
+    }
+  ],
+  "qa": "32镜时码、引用、SHA256、完整文件名、PDF字体和全页渲染检查通过。R系列及K系列静态复核通过；视频和音频未制作。"
+}

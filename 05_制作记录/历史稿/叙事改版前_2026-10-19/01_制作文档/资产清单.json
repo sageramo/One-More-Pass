@@ -1,0 +1,423 @@
+{
+  "project": "推光",
+  "scope": "22张静态参考PNG及L01文字规范；不包含视频与音频成片",
+  "image_count": 22,
+  "source_generation_count": 28,
+  "asset_rows": [
+    {
+      "code": "W01",
+      "filename": "W01_workshop.png",
+      "role": "工坊空间母图",
+      "shots": "01—27按需",
+      "note": "固定左窗、工作台、工作垫和后侧柜的空间关系；近景可以裁去环境。",
+      "path": "02_视觉资产/W01_workshop.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "13f533d01023d5a1c5c54a4924733af7c009cef8e1ec5339ac1b0db507172524",
+      "generation_id": "W01",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: photorealistic-natural. Asset type: single production reference photograph for a restrained, realistic contemporary Chinese lacquer craft film, W01 environment master. Create ONE clean landscape 16:9 photograph, no collage, no labels or text. An ordinary small actively used contemporary Pingyao lacquer workshop, not a museum or ancient fantasy: plain light gray plaster walls, a dark brown solid wood rectangular workbench across the foreground, a landscape rectangular charcoal-gray non-slip work mat centered on the bench. A simple wooden grid window is on the LEFT wall, with only two columns and three rows of panes, admitting controlled soft daylight from the left. Modest weak ambient fill, deep but readable shadows. At back right a plain brown wooden drying/storage cabinet with shelves and simple doors; one door slightly ajar, cabinet interior dim and dry, not lit by direct sun. A few unobtrusive practical hand tools at the far edge of the bench, no clutter, no identifiable logos. No person and NO lacquer board on the mat yet; the empty pad provides the consistent place for a 30 by 20 cm board in subsequent assets. Camera near operator height, slightly above the bench, three-quarter wide view; bench foreground and left window spatial relation clearly visible, natural straight perspective. Neutral blacks, soft gray, dark brown; quiet contemporary documentary realism, believable wood grain and subtle working wear. No floating dust, haze, smoke, incense, red lanterns, elaborate antique decoration, fake historic garments, gold particles, heavy film grain, lens flare, overexposure, typography or watermark.",
+      "references": [],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "H01",
+      "filename": "H01_hands_master.png",
+      "role": "双手与灰袖口母图",
+      "shots": "有手的镜头",
+      "note": "身份基准；左手在画面左侧、右手在画面右侧，均为手背视图。",
+      "path": "02_视觉资产/H01_hands_master.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "b2679555955de785209b4b6e832821069a690c424f5a12010b58d2fadcf52133",
+      "generation_id": "H01_master",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: photorealistic-natural. Asset type: H01 anonymous artisan hands identity reference, ONE single photorealistic image, not a multi-panel sheet. Landscape 3:2 photograph of the SAME person's two hands with light gray cotton work-shirt cuffs, resting naturally palm-down on a plain charcoal gray work mat. Both hands fully visible, left hand on the image left, right hand on the image right, wrists enter from bottom edge like an operator looking down. Anonymous adult aged about 25-35, natural medium-light warm East Asian skin, clean short nails, no jewelry, no watch, no tattoos, no extra identifying marks; realistic pores and gentle knuckles, calm working hands, not cosmetically manicured and not heavily aged. Loose simple light gray cotton sleeves end near the wrists, identical cuff construction on both hands. Soft controlled daylight from LEFT, weak fill, neutral quiet realistic color, subtle fabric weave. All five fingers of each hand anatomically correct and clearly separated, thumbs on anatomically correct sides. No extra limbs, no missing/fused fingers, no black lacquer stains, no redness, injury, sweat, tool, object, text, numbers, grid, logos or watermark. No face or body above forearms. This is the master for later right-hand, left-hand, and clothed torso variants.",
+      "references": [],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "H01",
+      "filename": "H01_right_hand.png",
+      "role": "右手独立参考",
+      "shots": "有右手的镜头",
+      "note": "用于锁定右手与袖口；不能镜像后当左手使用。",
+      "path": "02_视觉资产/H01_right_hand.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "723bf39e3593c51ba17ea37de176dbd19ce927d9fa24d756945b68be70cfd35f",
+      "generation_id": "H01_right",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: identity-preserve. Input is the H01 SAME PERSON hand identity master. Make ONE photorealistic standalone reference photograph of only the anatomical RIGHT HAND that is on the RIGHT HALF of the input. Preserve this exact hand's skin tone, nail shapes, finger proportions, natural knuckles and the same light-gray cotton cuff construction. Remove the other hand. Center the single right hand palm-down on the same charcoal-gray mat, wrist enters from bottom edge, all FIVE fingers fully visible with natural relaxed separation; in this top-down hand-back view the RIGHT THUMB is on IMAGE LEFT. Do not mirror a left hand. Same soft left daylight and natural exposure. No jewelry, no watch, no tattoos, extra marks, wounds, redness, tools, lacquer, board, labels, text, grid or watermark. No face. Single image, not collage; landscape 3:2, identical realistic photographic treatment to input.",
+      "references": [
+        "02_视觉资产/H01_hands_master.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "H01",
+      "filename": "H01_left_hand.png",
+      "role": "左手独立参考",
+      "shots": "有左手的镜头",
+      "note": "用于锁定左手与袖口；不能镜像后当右手使用。",
+      "path": "02_视觉资产/H01_left_hand.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "4c50119596aff072e6e3e2d539e0cb4350be985d5c70533f12bbad68588a1fcc",
+      "generation_id": "H01_left",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: identity-preserve. Input is the H01 SAME PERSON hand identity master. Make ONE photorealistic standalone reference photograph of only the anatomical LEFT HAND that is on the LEFT HALF of the input. Preserve this exact hand's skin tone, nail shapes, finger proportions, natural knuckles and the same light-gray cotton cuff construction. Remove the other hand. Center the single left hand palm-down on the same charcoal-gray mat, wrist enters from bottom edge, all FIVE fingers fully visible with natural relaxed separation; in this top-down hand-back view the LEFT THUMB is on IMAGE RIGHT. Do not mirror the right-hand picture. Same soft left daylight and natural exposure. No jewelry, no watch, no tattoos, extra marks, wounds, redness, tools, lacquer, board, labels, text, grid or watermark. No face. Single image, not collage; landscape 3:2, identical realistic photographic treatment to input.",
+      "references": [
+        "02_视觉资产/H01_hands_master.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "H01",
+      "filename": "H01_below_shoulders.png",
+      "role": "肩以下身体与工作服",
+      "shots": "27及身体可见处",
+      "note": "人物匿名，无可识别正脸；不新增传承人身份。",
+      "path": "02_视觉资产/H01_below_shoulders.png",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "5f0aa9bdb5108e471ef9008749c1070eed42270b8f61cdbd524554846b7bad06",
+      "generation_id": "H01_body_fix",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit and identity-preserve. Asset type: anonymous artisan below-shoulders reference for a contemporary lacquer craft film. Image 1 is the edit target; Image 2 is the EXACT hand identity and sleeve-cuff reference. Preserve image 1 composition, camera crop with no visible face or head, person's pose, light gray cotton work shirt including the existing front and collar, left window and cabinet, bench, mat, objects and lighting. Change ONLY the sleeve ends and hands to match image 2. The wrists must have the SAME broad plain light gray woven cotton cuff ends, with a narrow horizontal stitched hem and soft natural folds as image 2; no visible cuff buttons, no ribbed knit, no elastic wristbands and no rolled-up sleeves. Keep the hands resting at the same two positions on the far edge of the mat. Match the same natural skin tone, finger proportions and short natural nails of the pair of hands in image 2; no exaggerated veins, aging, jewelry or identifying marks. Anatomically correct five fingers on each hand, natural thumb orientation; right and left remain correct, do not mirror. Keep face completely outside image, head not visible, anonymous ordinary 25-35 year old operator. No new props, lacquer board, text or logos. Same understated realistic photograph, same landscape 16:9 canvas. The target is exact hand-and-cuff continuity with image 2 while retaining the scene.",
+      "references": [
+        "05_制作记录/候选与退回/H01_below_shoulders_v1_袖口待统一.png",
+        "02_视觉资产/H01_hands_master.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "G01",
+      "filename": "G01_plum_layout.png",
+      "role": "三朵金梅布局参考",
+      "shots": "01—03、12—27",
+      "note": "白底RGB布局参考，不是透明贴图；板上坐标及透视以P04完成图为准。",
+      "path": "02_视觉资产/G01_plum_layout.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "e646124276de97267e262de44d9832db535ab7d2faf69fa0bb07a3441c3fb7c2",
+      "generation_id": "G01_white",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: scientific-educational. Asset type: FLAT ORTHOGRAPHIC DESIGN TEMPLATE, NOT a photograph, NOT a rendering, NOT transparent. A clean solid pure WHITE (#FFFFFF) 3:2 landscape canvas, with a small plum branch line drawing confined to its lower right quarter. Exactly THREE small simple five-petal plum blossoms connected to one branch with one fork. Branch begins near bottom right(95%,94%) and reaches up-left to(64%,61%); flowers centered roughly(72%,66%),(84%,78%),(91%,62%). All linework is ONE flat solid muted ochre color #A8823F. Clear sharp edges with thin elegant strokes, small sparse stamens. Flower interiors stay WHITE. Huge WHITE negative space above and left. This is a flat color layout stencil used as a reference for later gold painting on lacquer, so absolutely NO lighting, no three-dimensional metal, no gradient, no glow, no bloom, no cast shadow, no grain, no paper texture. White background must remain equally white immediately next to every gold stroke; no tinted halo. No words, borders, coordinate marks, frames, boards, other flowers, buds, leaves, birds or symbols. One image, no panels.",
+      "references": [],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P01",
+      "filename": "P01_wood_top.png",
+      "role": "裸木胎俯视",
+      "shots": "04—05",
+      "note": "无黑漆、无金纹；保持板形与长宽比例。",
+      "path": "02_视觉资产/P01_wood_top.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "298c5c9323e58234c16eefa7c6e2cb09319560d9e7b170aacb1003d6d924440f",
+      "generation_id": "P01_top_fix",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Correct ONLY the wood blank's shape to a TRUE 3:2 WIDTH:HEIGHT rectangle in this exact overhead photo. It is presently a little too wide for its height. Keep horizontal width the same and increase its top-to-bottom dimension slightly until it is exactly1.5 times as wide as tall; a board about30cm wide and20cm tall. Keep the board centered on the SAME gray mat, the same wood grain, tiny corner rounding, soft left lighting and brown table. The top and bottom board edges must remain straight and parallel, no perspective since this is straight top-down. Approximate target within a1536x1024 canvas: board from x=318 to1218 (900px), y=212 to812 (600px), about3:2. No drawn pixel coordinates or dimension annotations in image. It remains a very thin plain wood blank, about1cm thick, no rim, recess, box, holes, red paint, black lacquer, gold pattern or tools or hands. Change only this small geometry correction and preserve the photographic realism. ONE single full photo, not a sheet or diagram.",
+      "references": [
+        "05_制作记录/候选与退回/P01_top_v1_比例待校正.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P01",
+      "filename": "P01_wood_oblique.png",
+      "role": "裸木胎斜俯视",
+      "shots": "04—05",
+      "note": "同一木胎的斜俯视几何基准。",
+      "path": "02_视觉资产/P01_wood_oblique.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "3ce52648fb3550deb78cfd310782b9d62633907666bd9b8ee0f0eb6b36ea99ad",
+      "generation_id": "P01_oblique",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the locked P01 wood geometry master. Create an oblique-camera reference of the EXACT SAME thin wood board, same charcoal mat and brown bench, same clean pale fine grain and slightly rounded corners. Change only the viewpoint from straight overhead to a stable, centered three-quarter overhead product view about55 degrees above the tabletop; the camera faces the board symmetrically so the long edges remain horizontal and the far edge recedes naturally. Keep physical width:depth at30:20cm, thickness about1cm; show the thin front edge, NOT a box or tray, no lip or recess. Entire board clearly visible, occupies about70% of image width, generous gray mat around it. Same soft left window illumination, readable shadows, photorealistic restrained workshop look. No hands, tools, gold, black lacquer, red side paint, labels, lines, annotation, extra objects, haze or watermarks. One landscape3:2 image. This will be the fixed camera basis for the later lacquer surface states; keep simple stable perspective.",
+      "references": [
+        "02_视觉资产/P01_wood_top.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P02",
+      "filename": "P02_cloth.png",
+      "role": "裱布状态",
+      "shots": "05",
+      "note": "可见布纹，尚未覆盖灰层。",
+      "path": "02_视觉资产/P02_cloth.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "6482b1e2e51054e524f594386a5541f4e0159f4066a75c4611efc23e8fd2f8f6",
+      "generation_id": "P02_cloth",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the locked straight-overhead P01 wood board reference. Change ONLY its upper surface into the CLOTH-LINING stage: one thin layer of natural off-white open-weave gauze neatly adhered flat over the same wood blank. Fine but visible warp and weft fibers, restrained natural off-white, taut and smooth without folds, full-width cloth covering board, slight wood or folded-fiber at thin edges plausible. It is a flat textile layer bonded to the board, not loose fabric floating over it and not a separate towel. NO gray filler yet, no liquid, no gold, no black lacquer, no red paint. Preserve EXACT board silhouette,3:2 proportion, size in frame, corner rounding, same gray mat, brown table grain, camera crop and soft left daylight. No hands, tools, typography, new objects, watermarks or airborne dust. One photorealistic landscape image matching input.",
+      "references": [
+        "02_视觉资产/P01_wood_top.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P02",
+      "filename": "P02_gray_wet.png",
+      "role": "湿灰胎状态",
+      "shots": "06—07",
+      "note": "细膏状灰料覆盖布纹，不是黑漆或水泥喷涂。",
+      "path": "02_视觉资产/P02_gray_wet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "6e8d103c841f8698774860490a766e8cbf1e8c1b52a4a56523de387eb0a08463",
+      "generation_id": "P02_wet",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the same P02 cloth-lined flat board. Change ONLY its TOP SURFACE to the wet filler/gray-ground preparation stage: a thin continuous layer of natural warm-gray fine lacquer putty coats the gauze, with just a few restrained shallow flat-spatula spreading tracks indicating it is still a workable paste. Most fabric weave is covered. It is smooth fine putty, NOT rough cement, gravel, thick mud, running water, glossy resin, or modeling clay lumps. Preserve the exact thin board outline, corner shape, position, size, overhead camera, charcoal mat and brown table pattern from input. No metal tools or hands baked into reference. No black lacquer yet, no gold or red decoration, no lettering, measures, extra objects, haze or watermark. Same soft LEFT daylight; natural material color, photorealistic texture, one single landscape production reference.",
+      "references": [
+        "02_视觉资产/P02_cloth.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P02",
+      "filename": "P02_gray_cured.png",
+      "role": "已干固灰胎",
+      "shots": "08",
+      "note": "干固、平整，不自动变湿，不保留粗布编织纹。",
+      "path": "02_视觉资产/P02_gray_cured.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "85b7b9dd715ee28fbd77775ee46d2ae3cf17fedca52102c8052b767d44945304",
+      "generation_id": "P02_cured_fix",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input shows wet fine gray-ground putty over a thin cloth-lined board. Make ONLY the dry cured and smoothed state of THAT SAME filler surface. Remove all wet spreading ridges, spatula tracks and all visible woven-fabric fibers: the gauze is BURIED under a continuous opaque warm-gray lacquer-ground layer, so the surface is now a uniform fine dense MATTE SOLID, like very fine dry clay ground, NOT cloth or canvas. A barely perceptible fine mineral texture is allowed, but no cross-hatch weave. Keep exactly the input's warm-gray hue, thin board outline, same corner shape,3:2 geometry, position, top-down camera, size, mat, table pattern and left lighting. Do not turn it into thick stone, a tray or white plaster slab. No cracks, loose dust, big scratches, wet sheen, gold, black lacquer, red paint, hands, tools or text. Change only the ground surface becoming dry, smooth and solid. Photorealistic material-stage reference.",
+      "references": [
+        "02_视觉资产/P02_gray_wet.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P03",
+      "filename": "P03_black_cured.png",
+      "role": "固化无纹黑漆底",
+      "shots": "09—11",
+      "note": "用作器型与无纹黑底参考；髹涂时仅局部表现本镜新上的薄湿漆。",
+      "path": "02_视觉资产/P03_black_cured.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "c01c173a60d3a07175d7720a4b5b3f023b84346d73f12c4274368bfc1b4565e3",
+      "generation_id": "P03_black",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the locked oblique P01 board/camera master. Change ONLY the board material to the unadorned CURED BLACK LACQUER stage P03. Preserve exactly the same thin flat rectangular geometry,3:2 physical shape, slightly rounded corners, position, perspective, scale, table wood grain, charcoal mat and soft left daylight. Cover the top evenly with deep neutral BLACK cured lacquer, already smooth with a modest controlled natural sheen, not a perfect mirror yet. The THIN VERTICAL SIDE EDGE only becomes muted dark vermilion red; no red border on the top, no raised rim or tray shape. NO gold decoration anywhere, no painting, no lines or blossoms. No liquid pooling, no visible oil, ash, scratches, tools, hands or dust. Black must remain black, not gray metal or glass. Fine realistic lacquer material, calm restrained contemporary craft photography. Keep everything outside the board unchanged. One landscape image.",
+      "references": [
+        "02_视觉资产/P01_wood_oblique.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P04",
+      "filename": "P04_gold_partial_branch.png",
+      "role": "描金局部：梅枝",
+      "shots": "12",
+      "note": "从完成图减去花朵的局部进度，只补短段线条，不自动长出花。",
+      "path": "02_视觉资产/P04_gold_partial_branch.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "2b157f2033e794444588238e172350439aee32e1aaf192048613bdd65000af4a",
+      "generation_id": "P04_branch",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the LOCKED completed gold-plum board. Make the earlier branch-drawing progress state for shot12 by REMOVING gold paint only. Keep the exact input board geometry, black lacquer, red side edge, camera, mat, table, light and background untouched. Keep the LOWER MAIN GOLD STEM from bottom-right corner up toward its first main fork, plus one small incomplete branch segment; REMOVE ALL THREE flower outlines and stamens and remove upper twig portions not yet drawn. Where gold is removed, restore exactly the same smooth black lacquer, no ghost blossoms or gray traces. Do not shift or redesign the surviving main branch: it must be a literal subset of input gold coordinates and shape. This is incomplete painted progress, no brush or hands baked in, no new marks, no buds, no other decoration. Flat thin antique gold paint, not glowing or embossed. One same-camera photorealistic production-state image; more than85% of board remains plain black.",
+      "references": [
+        "02_视觉资产/P04_gold_complete.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P04",
+      "filename": "P04_gold_partial_flower.png",
+      "role": "描金局部：花瓣收笔",
+      "shots": "13",
+      "note": "同一纹样，仅一处花瓣留有待完成的小缺口。",
+      "path": "02_视觉资产/P04_gold_partial_flower.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "13fd457822666ea2554d191bf7d07e66c545851a9a3281dff074db4f8f6eea58",
+      "generation_id": "P04_flower",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the LOCKED completed gold-plum board. Make a nearly-finished flower-drawing progress state for shot13, changing ONLY a tiny part of the gold linework. Keep the complete existing branch and TWO blossoms (the top-right blossom and lower-right blossom) exactly unchanged. In the LEFTMOST blossom, remove a small curved segment from ONE upper-right petal and a few of that blossom's central stamen marks, leaving a clear tiny place for the final brush stroke. Do not remove or shift entire flowers. The three flower positions, all surviving branch and petal coordinates, image crop, black lacquer, red side, mat, table and illumination must stay unchanged. Restore black under the missing gold stroke; no gray guide lines or white gap. NO hand or brush, text, new paint, frame or glow. One photorealistic fixed-camera progress-state image, same resolution and photographic composition as input.",
+      "references": [
+        "02_视觉资产/P04_gold_complete.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P04",
+      "filename": "P04_gold_complete.png",
+      "role": "三朵金梅完成母图",
+      "shots": "14；后续纹样基准",
+      "note": "后续只继承这组三朵花及枝干，不增加金边、山水或第四朵花。",
+      "path": "02_视觉资产/P04_gold_complete.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "5175ae9fee52085b1784ccef72ef318dcb12f726201afade66553e7b976673ab",
+      "generation_id": "P04_complete",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: compositing. Input1 is the EXACT LOCKED board photo, camera, black lacquer, thin dark vermilion side, gray mat and brown table. Input2 is ONLY the gold plum DESIGN reference; its WHITE background must not appear. Edit input1 by painting ONLY that same one plum motif as delicate FLAT GOLD LINEWORK on the LOWER RIGHT QUARTER of the board. Scale the ENTIRE motif from input2 down to fit inside the board's rightmost35% and bottom45%, all three five-petal flowers visible, branch starts near the board's bottom-right corner and forks up-left as in input2. Preserve branch topology, blossom shapes and order, exactly THREE blossoms. The rest of the board, at least75%, remains undecorated BLACK. No large flower, no motif at top right, no additional leaves, buds, birds, mountains or frame. This is completed thin painted gold decoration, NOT embossed metal, no white patch, no gold glow, no shadows from the flat design. Preserve input1 EXACT geometry, edges, camera position, frame, outside table/mat, illumination and base sheen. Do not add new reflections or alter background. No tools, hands, text, watermark or scene change. One photorealistic image; input1 dominates composition and input2 supplies only rescaled gold strokes.",
+      "references": [
+        "02_视觉资产/P03_black_cured.png",
+        "02_视觉资产/G01_plum_layout.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P05",
+      "filename": "P05_coat_structure.png",
+      "role": "罩漆器型与纹样结构母图",
+      "shots": "15；后续结构基准",
+      "note": "只继承器型、侧边、纹样与罩层关系，不当作所有工序的反光状态。",
+      "path": "02_视觉资产/P05_coat_structure.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "b3f6333f5ec76e5331a782cd1cc385b7c9ba3f21a1b3f57aa0c2a31582e691f5",
+      "generation_id": "P05_structure",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the LOCKED completed gold-plum board and exact fixed camera. Change ONLY the surface finish to the clear OVERCOAT structure state P05: the same black lacquer and exactly the same three-blossom gold drawing are now under a very thin continuous transparent refined-lacquer coating. Preserve every gold branch/petal coordinate, its visibility and position. The new coating has a restrained slightly more unified soft surface sheen, not a thick glass layer, not epoxy flooding, no droplets or drips. Black stays deep black and the painted gold remains flat beneath the surface, no extrusion or glow. Keep exact board outline and thin dark-red side, perspective, frame, table grain, charcoal mat, light direction and overall exposure. Do not add clear sharp white window reflections yet; only subtle naturally reflected left-side light. No sanding scratches, oil, ash, tools, hands, text or watermark. One photorealistic structural master, not an infographic or labeled diagram.",
+      "references": [
+        "02_视觉资产/P04_gold_complete.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P05A",
+      "filename": "P05A_coat_cured.png",
+      "role": "罩层已固化、待精磨",
+      "shots": "16—17",
+      "note": "无油灰；柜内等待由剪辑表达，不在一镜内变干。",
+      "path": "02_视觉资产/P05A_coat_cured.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "0d0676c081ce9d390c565082216c404109bd9a91f5211f91426c30c35a2762d1",
+      "generation_id": "P05A",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the locked P05 overcoated lacquer board. Make P05A: the same very thin clear lacquer overcoat is now FULLY CURED, ready for fine wet sanding. Preserve exact board outline, red thin side, three gold flower design and every branch/petal coordinate, same camera/crop, gray mat and brown table pattern, overall exposure and LEFT light direction. The black finish is solid, smooth and mildly satin-gloss with only the same broad soft reflected light, no wet fluid, drips, oil, powder, tools, hands or sanding scratches. Do not invent a sharp mirror/window reflection or make a dramatic brighter/darker version; this is a subtle material-state reference, not a magic transformation. Gold remains beneath the clear coat, not raised. One photorealistic fixed-camera image with all background details retained.",
+      "references": [
+        "02_视觉资产/P05_coat_structure.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P05B",
+      "filename": "P05B_finely_sanded.png",
+      "role": "精磨后、已清理",
+      "shots": "18",
+      "note": "均匀柔和的表面，无油灰，开始薄擦麻油。",
+      "path": "02_视觉资产/P05B_finely_sanded.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "4b04faf1f00ce3df13dd2f2d944bf209bc514ceef418d864d283e18517b5483b",
+      "generation_id": "P05B",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the locked overcoated black/gold lacquer board. Change ONLY its clear top-coat surface into the just-FINELY-SANDED AND CLEANED preparation state P05B, prior to oil and fine ash. A very fine even satin/matte haze from microscopic surface roughness softly diffuses the left light, while black stays BLACK, not white/gray paint or metal. No visible coarse scratches, no directional gouges, no sanding through gold, no white residue: the surface is clean and dry, pattern still fully visible underneath. Keep the identical three-blossom gold layout, board geometry, red side thickness, position, perspective, mat/table textures, crop and exposure. No oil yet, no powder, water puddles, hands, tools or text. This is physical fine sanding at a subtle scale, not a frosted glass or thick plastic sheet. One photorealistic fixed-camera state reference.",
+      "references": [
+        "02_视觉资产/P05_coat_structure.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P05B",
+      "filename": "P05B_oiled.png",
+      "role": "薄擦麻油后、尚未落灰",
+      "shots": "19",
+      "note": "只有极薄油膜，不是油池、厚胶或已完成镜面。",
+      "path": "02_视觉资产/P05B_oiled.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "345271ea179a7725f28c61b121ba0804137686cc35f13e03850556ef6b39a504",
+      "generation_id": "P05B_oiled",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Edit this exact still image as a precise continuity reference for a lacquer craft film. Preserve the entire image: identical camera viewpoint, board outline and size and position, perspective, gently rounded corners, thin vermilion red side, charcoal work mat, brown wooden table, lighting, same three gold plum flowers and every branch coordinate. Change ONLY the state of the black lacquer top: it has just been wiped with an extremely thin even film of natural sesame oil in preparation for palm polishing. Show a subtle restrained satin oily sheen, very slight, no puddles or drops or streaks, no thickness, no extra reflectors or window image. It is still finely sanded, not a glossy finished mirror. Keep gold completely unchanged and unobscured. No brick ash yet. No hands, tools, text, logos, particles, glow or magical effect. Full single photographic frame, same 3:2 canvas. This is a staged AI visual reference, ordinary contemporary craft realism.",
+      "references": [
+        "02_视觉资产/P05B_finely_sanded.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "P05C",
+      "filename": "P05C_oil_ash.png",
+      "role": "薄油与少量细砖灰操作面",
+      "shots": "20—21、23—24",
+      "note": "少量粉末贴在留黑工作区；不把它直接用作干净检查面。",
+      "path": "02_视觉资产/P05C_oil_ash.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "56408cac8fda5c2282a01e0464d64e6baba4da6044d4fd53adfa72ab7e733ca3",
+      "generation_id": "P05C",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Asset type: one still continuity reference for a lacquer palm-polishing film. Input image 1 is the exact edit target. Keep the board geometry, camera viewpoint, black top, red thin side edge, table, mat, lighting and every gold branch and exactly three flowers completely unchanged. The board already has a very thin wiped sesame-oil film; retain it. Add ONLY a small restrained amount of extremely finely levigated brick ash to a compact working patch in the lower left/center-left black area, away from the gold pattern: sparse warm muted light gray-brown micron-like fine powder, low density, a lightly dispersed dusting in contact with the surface, a few faint curved wipe traces suggesting the start of palm polishing. The majority of black lacquer stays visibly black and open, gold is fully visible. Not a heap, no granular chunks, not sand, no thick flour coating, no opaque paste or dirty stains. No floating dust, no flying particles. No hand or tool baked into this reference still: those will be introduced in video. Do not make the board a mirror, do not add window reflection. This is the oiled and lightly ash-dusted working state, not a clean inspection state. Single photographic image, same 3:2 canvas, no labels, text, logos, split panels or collage.",
+      "references": [
+        "02_视觉资产/P05B_oiled.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "C01",
+      "filename": "C01_mid_polish_check.png",
+      "role": "掌推中途、整理后的检查面",
+      "shots": "01—03、22",
+      "note": "同构图检查基准，左上局部窗反射边缘稍发散；镜22复用视频素材。",
+      "path": "02_视觉资产/C01_mid_polish_check.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "1ee8410a409a41be16c75fd99156be2be7fdb559720382b2b6ac2081276858c5",
+      "generation_id": "C01",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Use case: precise-object-edit. Input is the LOCKED same board, gold design, camera and background. Make C01, the intermediate polish INSPECTION BASELINE after necessary cleaning, no hands. Preserve all geometry, board angle/size, same thin vermilion edge, same exact three gold blossoms/petals, mat, table wood grain, focus and overall exposure. Add ONE restrained reflection of a SMALL SECTION of the existing LEFT wooden window on the UPPER LEFT black area of the board, clear of the gold design. The reflected patch has two columns by two rows of pale neutral daylight separated by a simple dark wooden cross, projected plausibly onto the flat board plane. It is a soft slightly diffuse, hazy-edged reflection due to subtle remaining surface scatter; the four panes and outer boundary can still be recognized. Not a reflection of clouds, sky/trees or a whole courtyard. Keep the overall black dark, no glowing lacquer, no spotlight or lens flare. Reflection is medium gray-white, not clipped pure white. Board clean and dry: no powder, oil smear, fingerprints, scratches, dust, tools or people. Everything outside that reflected-light patch should remain unchanged. This exact image will be edited into C02 with ONLY sharper reflection edges, so use a stable simple reproducible shape.",
+      "references": [
+        "02_视觉资产/P05_coat_structure.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    },
+    {
+      "code": "C02",
+      "filename": "C02_finished_check.png",
+      "role": "完成检查面",
+      "shots": "25—27",
+      "note": "从C01派生，窗反射边缘更清楚；不靠整体变亮、换灯或清灰制造对比。",
+      "path": "02_视觉资产/C02_finished_check.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB",
+      "sha256": "479f7050cab1757782de442a3fa40e19bd2503720b22eb7a42854562ec9bee27",
+      "generation_id": "C02",
+      "generation_mode": "built-in imagegen",
+      "prompt": "Make one extremely controlled edit to this exact photographic still, the completed state of the same lacquer panel after further palm polishing. Keep the source image composition, camera, board geometry, rounded corners, thickness, red side edge, gold plum pattern with exactly the same three flowers and branch coordinates, tabletop and mat texture, exposure, light direction, focus and colors identical. Keep the existing reflected window in the exact same upper left area of the black board, same outer shape, same single vertical and horizontal cross bars, same perspective and brightness. Change ONLY the surface scattering of that existing window reflection: its edges become noticeably sharper and cleaner while retaining natural restrained reflection contrast. Use crisp narrow edges on the same reflected cross and panes, not new window panes, not a larger or moved reflection. Black lacquer remains black, no overall brightening, no white blown highlights. Both states are clean inspection states with no powder or visible residual oil, so do not change cleanliness or add/remove anything. No text, hands, tools, particles, glow, lens effects. Same 3:2 canvas. Deliver one faithful matched final-state reference, not a side-by-side collage.",
+      "references": [
+        "02_视觉资产/C01_mid_polish_check.png"
+      ],
+      "qa": "静态视觉检查通过；视频连续性尚待验证"
+    }
+  ],
+  "lighting_rule": "03_光线规范/L01_lighting.md"
+}

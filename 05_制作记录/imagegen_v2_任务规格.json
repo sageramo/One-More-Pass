@@ -1,0 +1,84 @@
+[
+  {
+    "id": "v2_R01",
+    "filename": "R01_initial_detail.png",
+    "args": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/C01_mid_polish_check.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: R01 close inspection reference, initial state, for a restrained realistic AI lacquer craft film. Image 1 is the exact source object and reflection. Make one tightly framed photographic close-up of the same board's left inspection region. Enlarge the existing window reflection so it is plainly readable on a phone: it should occupy roughly the left third of the frame. Crop away most of the surrounding work mat and tabletop. Retain a thin portion of the straight muted vermilion front edge along the bottom as a sharp focus and geometry reference; at the far right allow only the naturally cropped existing gold plum pattern, never redesign or add blossoms. The black surface should nearly fill the image. Keep the source window geometry, exactly one vertical and one horizontal cross bar forming four reflected panes, the same perspective and restrained brightness. Preserve the existing soft scattered edges of the reflection, neither a foggy dirty surface nor a pristine finished mirror. The physical red edge and visible gold strokes remain sharp, proving the surface reflection is diffuse rather than a camera-focus effect. No ash, dust, oil puddle, scratches, cracks or visible contamination. Do not invent a damaged patch. Same natural left-window lighting and exposure; black remains black, no glow. One clean 3:2 photographic frame, no hands, labels, diagram, split comparison or text. This first selected close-up will be the exact geometry master for intermediate and finished inspection edits."
+    }
+  },
+  {
+    "id": "v2_K01",
+    "filename": "K01_palm_contact.png",
+    "args": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/P05C_oil_ash.png",
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/H01_hands_master.png"
+      ],
+      "prompt": "Use case: compositing and identity-preserve. Asset type: K01 palm-contact action keyframe for a contemporary Chinese lacquer craft film. Image 1 is the exact scene, board and oiled finely dusted working state to preserve. Image 2 is the exact pair of hands and light gray woven cotton cuffs to insert. Create one realistic landscape photograph, widen to 16:9 without cropping the board. Keep the same flat rectangular board, perspective, gently rounded corners, thin red side edge, all three gold plum blossoms and branches in their exact right-lower coordinates, same brown bench and charcoal mat. Add the same anonymous operator's hands entering from the lower edge only, no face or body. The RIGHT hand reaches from lower right and lies palm-down in genuine full contact with the center-left black working area, fingertips pointing gently away from the operator; back of hand visible. LEFT hand from lower left gently stabilizes the left board edge, not the decorated area. Anatomically natural right and left thumb orientations; five digits on each hand, no duplication or merged fingers. Forearms do not cross. Natural short nails, no jewelry, light gray plain cotton stitched cuffs matching image 2, no rib-knit or buttons at cuffs. Keep the existing very small amount of fine muted gray-brown brick ash close to the contact area, not covering the board, no floating particles. This is contact at the start of one short straight palm stroke, not a dramatic grinding pose. Gold remains visible and untouched. No hand penetrating or fused into the board, no red swollen skin, no new tools, no text or glow. Contact, credible weight and skin compression matter more than beauty posing. Keep the original camera angle, exposure and lighting."
+    }
+  },
+  {
+    "id": "v2_R02",
+    "filename": "R02_progress_detail.png",
+    "args": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/R01_initial_detail.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the exact locked inspection close-up. Produce the intermediate progress state R02. Preserve every pixel-level compositional relationship: same fixed camera, black lacquer geometry, straight red front edge, cropped gold flower and branch coordinates, SAME reflected window and its exact four panes, cross bars, location, perspective, brightness and sizes. Same focus, exposure and surface cleanliness, no powder or visible oil in either state. Change ONLY the surface scattering near the existing reflected window: compared with this initial image, make the upper reflected pane edges and upper section of the dark vertical cross bar moderately clearer, but retain a visibly soft scattered edge in the lower reflected area. This is partial progress; it must remain intermediate between soft reflection and evenly crisp reflection. Do not change the shape of the window or add a stripe or defect, don't brighten the image or sharpen the actual painted gold and edge. Do not add hands, labels, diagrams or particles. The actual board edge and gold remain as sharp as in the source. It is an artistically staged surface-scattering reference, not a real material experiment. One single matching 3:2 image, not a comparison sheet."
+    }
+  },
+  {
+    "id": "v2_R03",
+    "filename": "R03_finished_detail.png",
+    "args": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/R01_initial_detail.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Image 1 is the exact locked inspection close-up R01. Produce the finished state R03 by changing ONLY the surface scattering of the same existing reflected window. Keep the entire frame otherwise identical: camera crop, black board geometry, straight red front edge, every cropped gold plum flower and branch coordinate, actual object focus, brightness, exposure, color, fine surface cleanliness, and the exact reflected four window panes with one vertical and one horizontal cross bar in the same perspective and location. Narrow the blurred transition along ALL existing window-reflection boundaries so they read as an evenly clear natural window reflection. Keep original contrast and restrained pane brightness as closely as possible; do not make the reflected window larger, whiter, moved, or a different grid. Never add more panes or specular dots. Black stays black, no glow, no global brightening. Both reference and finished state have no powder or visible residual oil; no cleaning change. Red edge and gold are already in focus and must not sharpen or move. No hands, labels, particles, fog or text. A single faithful 3:2 matched image, not a collage; the only clear visual change is less surface scattering and a more evenly defined reflected window."
+    }
+  },
+  {
+    "id": "v2_K02",
+    "filename": "K02_almost_putaway.png",
+    "args": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/K01_palm_contact.png",
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/C01_mid_polish_check.png",
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/R01_initial_detail.png"
+      ],
+      "prompt": "Use case: precise-object-edit and identity-preserve. Asset type: K02 interrupted tidying action keyframe. Image 1 is the exact scene, board geometry, gold pattern, hand identity and camera to edit. Image 2 is ONLY the cleaned intermediate inspection material state, not a geometry replacement. Image 3 is ONLY the soft reflection quality. Keep image 1's board position and outline, all THREE gold plum flowers and branch coordinates, red thin side, charcoal mat and brown tabletop. Preserve its left hand gently stabilizing the left edge. Repose the RIGHT hand naturally at the lower-right side OUTSIDE the board, holding a small ordinary off-white cotton wad between thumb and fingers, poised 2-3cm above one small shallow matte charcoal-gray ceramic dish resting on the work mat to the right of the board. The forearm still enters from lower right, same plain light gray cotton stitched cuff, short nails, no jewelry. It is about to put the cotton away but has PAUSED just before touching the dish; cotton stays in the fingers. Natural anatomy with five fingers, no floating disconnected hand, no crossing arms. Change board material from the dusty working state to the clean inspection state of image 2: no ash or oil residue; include a restrained soft-edged reflected window in the upper left black area, same source and four-pane partial grid. This is a new shot AFTER an editorial omission of surface preparation, not an automatic on-screen cleaning effect. The board remains black, no glow or overexposure. Dish is a plain contemporary tidying prop, not an alleged traditional tool. No extra brush, lid, tool box, text, logo or face. One 16:9 photograph with board and dish fully readable, same camera and lighting as image 1."
+    }
+  },
+  {
+    "id": "v2_K03",
+    "filename": "K03_final_putaway.png",
+    "args": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/K02_almost_putaway.png",
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/C02_finished_check.png"
+      ],
+      "prompt": "Use case: precise-object-edit and identity-preserve. Asset type: K03 completion of the same interrupted tidying gesture. Image 1 is the EXACT edit target. Image 2 provides ONLY the finished lacquer reflection quality, not scene geometry. Preserve image 1 camera, entire tabletop and work mat, board outline and position, red edge, ALL THREE gold flowers and every branch, left window-reflection shape and perspective, lighting and exposure, ceramic dish position and size, cotton appearance, operator's skin and cuffs. Make only two limited completion changes. First, the SAME small cotton wad is now resting inside the SAME shallow gray dish at the right, and the RIGHT hand has just released it: fingers are naturally relaxed 2-3cm above it, no longer pinching or touching cotton, withdrawing toward lower right. The left hand is slightly relaxed beside the left board edge, with no continued polishing. Five fingers per hand, natural anatomy, no jewelry. Second, the same existing reflected window on the clean black board now has more evenly defined edges, like image 2, but keep its location, grid and brightness exactly as image 1. No powder, oil residue or change in cleanliness in either shot. This is a new final shot after polishing and an inspection, NOT continuous magical surface transformation. Do not move the dish, put new objects in it, add a lid, add tools or change the shirt cuffs. Black stays black. No glow, text, extra gold, people or face. Same 16:9 frame. The visual narrative is the SAME putting-away action finally completed, with no more work beginning."
+    }
+  },
+  {
+    "id": "v2_K04",
+    "filename": "K04_finished_before_putaway.png",
+    "args": {
+      "transparent_background": false,
+      "referenced_image_paths": [
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/K02_almost_putaway.png",
+        "/Users/Amo/Documents/升学/自我培养/推光ai视频创作/02_视觉资产/K03_final_putaway.png"
+      ],
+      "prompt": "Use case: precise-object-edit. Asset type: K04 matched beginning keyframe for the FINAL putting-away gesture. Image 1 is the EXACT target frame: right hand holding the cotton above the small dish, left hand stabilizing the board. Image 2 is the finished reflection appearance to match. Make ONLY ONE change to image 1: refine the existing window reflection's soft edges to the finished more even definition of image 2. Keep the same reflected window size, shape, cross bars, perspective, location and brightness, same exposure and black material color. Preserve all other contents and positions exactly as image 1: cotton remains PINCHED in the right fingers, above the dish, not resting inside it; same right-hand pose, natural five fingers, gray cotton stitched cuff, same left hand, same board outline and placement, three gold plum blossoms and every branch, red side edge, gray mat, tabletop and ceramic dish. No cleaning change, no added oil, powder, particles, labels or glow. This is AFTER polishing, just before cotton is put away. It must pair with image 2 as an actual hand-action start/end, with the lacquer reflection ALREADY finished and unchanged throughout that gesture. Do not use image 2's relaxed right-hand pose or cotton-in-dish position yet. One single same 16:9 image, not a collage."
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "source": "01_制作文档/分镜脚本.pdf",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/01_制作文档/分镜脚本.pdf",
+    "sha256": "bd12e0ca6550c5fc19b79443787a2ad9424ce3ad98c294a7d8be7066d7987b79"
+  },
+  {
+    "source": "01_制作文档/资产与视觉提示词固定.pdf",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/01_制作文档/资产与视觉提示词固定.pdf",
+    "sha256": "70870697179d3bb793c21ec054536f645ce278ecf1d36ee7045f5c45acd8eb3c"
+  },
+  {
+    "source": "README.md",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/README.md",
+    "sha256": "9da239a2a1b2e638fb5b81471aaf6a8baca6fd507a3b409c60f2808da43b25e3"
+  },
+  {
+    "source": "03_光线规范/L01_lighting.md",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/03_光线规范/L01_lighting.md",
+    "sha256": "dc863a4401784c3a058ee0fa8dca0d16ebbfe0e2f025276da66f45d8ebf6ac86"
+  },
+  {
+    "source": "03_光线规范/L01_lighting.txt",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/03_光线规范/L01_lighting.txt",
+    "sha256": "dc863a4401784c3a058ee0fa8dca0d16ebbfe0e2f025276da66f45d8ebf6ac86"
+  },
+  {
+    "source": "01_制作文档/资产清单.json",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/01_制作文档/资产清单.json",
+    "sha256": "9cc52109243e35718ad8477573d373d0d990ba6f6cc4e70b10a0f629306f0ae8"
+  },
+  {
+    "source": "01_制作文档/资产清单.csv",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/01_制作文档/资产清单.csv",
+    "sha256": "7c7d1791e8c49ef4721be0c2bcb7818a0cc8eb71f6963151b5efc1105c2214d6"
+  },
+  {
+    "source": "01_制作文档/资产清单与调用说明.md",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/01_制作文档/资产清单与调用说明.md",
+    "sha256": "35cf432f3826e5fa1ec492f1196364fbd5e4cdf6a988931cfe45d7454b04a5ef"
+  },
+  {
+    "source": "01_制作文档/资产总览.jpg",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/01_制作文档/资产总览.jpg",
+    "sha256": "398acb90b340b1f19ce5e838a271823c473d22e1d713156669ddba202751af1d"
+  },
+  {
+    "source": "05_制作记录/脚本/build_asset_index.py",
+    "snapshot": "05_制作记录/历史稿/叙事改版前_2026-10-19/05_制作记录/脚本/build_asset_index.py",
+    "sha256": "c592d3544d67622aec0aa5887686c1f0f7dbdb38851d5007cc1f5bf6c7851f8a"
+  }
+]
